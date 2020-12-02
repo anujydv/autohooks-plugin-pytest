@@ -37,7 +37,7 @@ pre-commit = ["autohooks.plugins.pytest"]
 To pass options to `pytest`, you have to add an additional
 ````toml
 [tool.autohooks.plugins.pytest]
-option = value
+option = "value"
 ````
 
 block to your `pyproject.toml` file. Possible options are explained in the following.
@@ -54,7 +54,7 @@ block to your `pyproject.toml` file. Possible options are explained in the follo
     * non-verbose `"-rf"`
 
     ````toml
-    view_mode = "-q" | "-rf"
+    view_mode = "-q"
     ````
 
     default mode `"-v"` verbose.
