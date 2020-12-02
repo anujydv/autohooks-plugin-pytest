@@ -1,0 +1,7 @@
+[tool.autohooks.plugins.pytest]
+root_dir = "api_test"
+view_mode = "-rf"
+cov_source = "www"
+cov_on_fail = false
+cov_under_fail = 80
+cov_report_format = "xml"

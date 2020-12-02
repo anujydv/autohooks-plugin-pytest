@@ -1,0 +1,2 @@
+[tool.autohooks.plugins.pytest]
+cov_source = "autohooks"
