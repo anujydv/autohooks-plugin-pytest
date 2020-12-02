@@ -45,34 +45,34 @@ block to your `pyproject.toml` file. Possible options are explained in the follo
     By default, autohooks plugin pytest checks all files with a "test_*.py" inside tests directory . To update root directory just add the following setting:
 
     ````toml
-    root_dir = api_test
+    root_dir = "api_test"
     ````
 * #### Select different view mode
 
     You can update the pytest `cli` view mode. some modes are : </br>
-    * quite `-q`
-    * non-verbose `-rf`
+    * quite `"-q"`
+    * non-verbose `"-rf"`
 
     ````toml
-    view_mode = -q | -rf
+    view_mode = "-q" | "-rf"
     ````
 
-    default mode `-v` verbose.
+    default mode `"-v"` verbose.
 
 * #### Set coverage source
     You have to update the coverage directory : </br>
     ````toml
-    cov_source = src
+    cov_source = "src"
     ````
 
-    default direcotry is `src` .
+    default direcotry is `"src"` .
 * #### Set coverage on pytest fail
     You can update the coverage on pytest fail : </br>
     ````toml
-    cov_on_fail = False
+    cov_on_fail = false
     ````
 
-    default value is `True` .
+    default value is `true` .
 * #### Set coverage under fail
     You can update the coverage  : </br>
     ````toml
@@ -83,10 +83,10 @@ block to your `pyproject.toml` file. Possible options are explained in the follo
 * #### Set coverage report format
     You can update the coverage report format : </br>
     ````toml
-    cov_report_format = html
+    cov_report_format = "html"
     ````
 
-    default direcotry is `src` .
+    default report format is `"xml"` .
 
 ## Contributing
 
