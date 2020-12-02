@@ -1,4 +1,4 @@
-# autohooks-plugin-pytest[![Build Status](https://travis-ci.com/anujydv/autohooks-plugin-pytest.svg?branch=master)](https://travis-ci.com/anujydv/autohooks-plugin-pytest)
+# autohooks-plugin-pytest [![Build Status](https://travis-ci.com/anujydv/autohooks-plugin-pytest.svg?token=eGcyD1pMMpMp9pUm8QhN&branch=main)](https://travis-ci.com/anujydv/autohooks-plugin-pytest)
 
 An [autohooks](https://github.com/greenbone/autohooks) plugin for python code
 testing via [pytest](https://github.com/pytest-dev/pytest).
