@@ -1,0 +1,2 @@
+include README.md CHANGELOG.md LICENSE pyproject.toml poetry.lock
+recursive-include tests *.py
